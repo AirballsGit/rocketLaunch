@@ -6,11 +6,14 @@ const h1 = document.querySelector('h1');
 
 btn.addEventListener('click', () => {
     setTimeout(()=>{
+        btn.innerText = "ABORT LAUNCH";
+    },2000)
+    setTimeout(()=>{
         h1.innerText = "FALCON 9 IS IN START UP";
         setTimeout(() => {
             h1.innerText = "Launch Director is GO for Launch";
-        },3000);
-    },1000);
+        },4000);
+    },2000);
     setTimeout(() => {
         h1.innerText = "10";
         setTimeout(()=>{
