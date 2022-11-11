@@ -1,8 +1,9 @@
 h1 {
-    font-size: 30px;
+    font-size: 40px;
 }
 
 body {
+    background-color: #1d1919;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
